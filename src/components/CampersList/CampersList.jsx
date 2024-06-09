@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import { selectCampers } from '../../redux/campers/selectors';
-import Camper from './Camper/Camper';
+import Camper from '../Camper/Camper';
 
 function CampersList() {
   const campers = useSelector(selectCampers);

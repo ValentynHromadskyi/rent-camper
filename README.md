@@ -16,23 +16,37 @@ To install the project locally, follow these steps:
 git clone https://github.com/ValentynHromadskyi/rentcamper.git
 ```
 
-Navigate to the project directory
+### Navigate to the project directory
+
+```bash
 cd rentcamper
+```
 
-Install dependencies
+### Install dependencies
+
+````bash
 npm install
+```
 
-Start the project
+### Start the project
+```bash
 npm start
+```
 
-Usage
+### Usage
+
 After starting the project, you can open it in your browser at http://localhost:3000.
 
-Technologies
+### Technologies
+
 The project uses the following technologies:
 
 React
 Node.js
 Netlify for hosting
-Author
+
+### Author
+
 Valentyn Hromadskyi - GitHub
+
+````

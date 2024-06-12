@@ -5,9 +5,9 @@ function Home() {
     <>
       <h1> Welcome to Rent Campers App</h1>
 
-      <NavLink to="/catalog">catalog</NavLink>
+      <NavLink to="/catalog">Catalog</NavLink>
 
-      <NavLink to="/favorites">favorites</NavLink>
+      <NavLink to="/favorites">Favorites</NavLink>
     </>
   );
 }

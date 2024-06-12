@@ -1,0 +1,6 @@
+.wrap {
+  display: flex;
+  /* margin-top: 100px; */
+  padding: 64px 100px;
+  gap: 64px;
+}

@@ -1,16 +1,17 @@
 import './App.css';
-import { selectError } from '../redux/campers/selectors';
+import { selectError } from './src/redux/campers/selectors.js';
 import { Toaster } from 'react-hot-toast';
 
 import { useSelector } from 'react-redux';
 
 import { Route, Routes } from 'react-router-dom';
-import { Layout } from './Layout';
+import { Layout } from './src/components/Layout.jsx';
 import { Suspense, lazy } from 'react';
 
-const Home = lazy(() => import('../Pages/Home'));
-const NotFoundPage = lazy(() => import('../Pages/NotFoundPage'));
-const Catalog = lazy(() => import('../Pages/Catalog.jsx'));
+const Home = lazy(() => import('./src/Pages/Home.jsx'));
+const NotFoundPage = lazy(() => import('./src/Pages/NotFoundPage.jsx'));
+const Catalog = lazy(() => import('./src/Pages/Catalog/Catalog.jsx'));
+const Favorites = lazy(() => import('./src/Pages/Favorites.jsx'));
 
 function App() {
   const error = useSelector(selectError);
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="/catalog" element={<Catalog />} />
+            <Route path="/favorites" element={<Favorites />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>

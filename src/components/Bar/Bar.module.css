@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.label {
+  color: rgba(16, 24, 40, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.input {
+  display: flex;
+  max-width: 360px;
+  height: 56px;
+  padding: 18px 218px 18px 18px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--color-greywhite);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input::placeholder {
+  color: var(--color-dark);
+  font-size: 16px;
+}

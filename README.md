@@ -24,11 +24,12 @@ cd rentcamper
 
 ### Install dependencies
 
-````bash
+```bash
 npm install
 ```
 
 ### Start the project
+
 ```bash
 npm start
 ```
@@ -49,4 +50,6 @@ Netlify for hosting
 
 Valentyn Hromadskyi - GitHub
 
-````
+```
+
+```

@@ -8,10 +8,10 @@ import { Route, Routes } from 'react-router-dom';
 import { Layout } from './src/components/Layout.jsx';
 import { Suspense, lazy } from 'react';
 
-const Home = lazy(() => import('./src/Pages/Home.jsx'));
+const Home = lazy(() => import('./src/Pages/Home/Home.jsx'));
 const NotFoundPage = lazy(() => import('./src/Pages/NotFoundPage.jsx'));
 const Catalog = lazy(() => import('./src/Pages/Catalog/Catalog.jsx'));
-const Favorites = lazy(() => import('./src/Pages/Favorites.jsx'));
+const Favorites = lazy(() => import('./src/Pages/Favorites/Favorites.jsx'));
 
 function App() {
   const error = useSelector(selectError);

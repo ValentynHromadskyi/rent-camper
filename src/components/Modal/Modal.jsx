@@ -32,7 +32,7 @@ export function CamperModal({ camper, isOpen, onClose }) {
               <div className={css.secondaryContent}>
                 <p className={css.rating}>
                   <svg width="20" height="20">
-                    <use xlinkHref="/public/star.svg#icon/star" />
+                    <use xlinkHref="/star.svg#icon/star" />
                   </svg>
                   {camper.rating}(
                   {camper.reviews.length > 1

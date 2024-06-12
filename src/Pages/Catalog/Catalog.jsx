@@ -31,8 +31,12 @@ function Catalog() {
 
   return (
     <>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/favorites">Favorites</NavLink>
+      <NavLink to="/">
+        <button className={css.btn}>Home</button>
+      </NavLink>
+      <NavLink to="/favorites">
+        <button className={css.btn}> Favorites</button>
+      </NavLink>
       <div className={css.wrap}>
         <Bar />
         <div>

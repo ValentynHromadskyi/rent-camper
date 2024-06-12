@@ -1,0 +1,12 @@
+.btn {
+    height: 56px;
+    font-size: 16px;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    border: 1px solid rgba(71, 84, 103, 0.2);
+    margin-left: 10px;
+    margin-top: 10px;
+  }

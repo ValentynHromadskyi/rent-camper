@@ -1,10 +1,9 @@
 import { useEffect } from 'react';
-
 import { useDispatch } from 'react-redux';
-import { fetchCampers } from '../redux/campers/operations';
-
-import FavoriteCampers from '../components/FavoriteCampers/FavoriteCampers';
+import { fetchCampers } from '../../redux/campers/operations';
+import FavoriteCampers from '../../components/FavoriteCampers/FavoriteCampers';
 import { NavLink } from 'react-router-dom';
+import css from './Favorites.module.css';
 
 function Favorites() {
   const dispatch = useDispatch();
@@ -21,9 +20,13 @@ function Favorites() {
 
   return (
     <>
+      <NavLink to="/">
+        <button className={css.btn}>Home</button>
+      </NavLink>
+      <NavLink to="/catalog">
+        <button className={css.btn}>Catalog</button>
+      </NavLink>
       <h1>FavoriteCampers</h1>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/catalog">Catalog</NavLink>
       <FavoriteCampers />
     </>
   );

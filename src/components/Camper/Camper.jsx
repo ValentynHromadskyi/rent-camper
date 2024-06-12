@@ -58,7 +58,7 @@ function Camper({ camper }) {
         </div>
         <div className={css.ratingWrap}>
           <svg width="20" height="20">
-            <use xlinkHref="/public/star.svg#icon/star" />
+            <use xlinkHref="/star.svg#icon/star" />
           </svg>
           <p className={css.rating}>{camper.rating}</p>
           <p className={css.reviews}>({camper.reviews.length} Reviews)</p>
@@ -71,32 +71,32 @@ function Camper({ camper }) {
         <ul className={css.optionsList}>
           <li className={css.options}>
             <svg width="20" height="20" stroke="currentColor">
-              <use xlinkHref="/public/icons.svg#icon-adult" />
+              <use xlinkHref="/icons.svg#icon-adult" />
             </svg>
             <p>{camper.adults} adults</p>
           </li>
           <li className={css.options}>
             <svg width="20" height="20" fill="none" stroke="currentColor">
-              <use xlinkHref="/public/icons.svg#icon-gearbox" />
+              <use xlinkHref="/icons.svg#icon-gearbox" />
             </svg>
             <p>{camper.transmission}</p>
           </li>
           <li className={css.options}>
             <svg width="20" height="20">
-              <use xlinkHref="/public/icons.svg#icon-petrol" />
+              <use xlinkHref="/icons.svg#icon-petrol" />
             </svg>
             <p>{camper.engine}</p>
           </li>
           <li className={css.options}>
             <svg width="20" height="20" fill="none" stroke="currentColor">
-              <use xlinkHref="/public/icons.svg#icon-beds" />
+              <use xlinkHref="/icons.svg#icon-beds" />
             </svg>
             <p>{camper.details.beds} beds</p>
           </li>
           {camper.details.kitchen === 1 && (
             <li className={css.options}>
               <svg width="20" height="20" fill="none" stroke="currentColor">
-                <use xlinkHref="/public/icons.svg#icon-kitchen" />
+                <use xlinkHref="/icons.svg#icon-kitchen" />
               </svg>
               <p>kitchen</p>
             </li>
@@ -110,7 +110,7 @@ function Camper({ camper }) {
           {camper.details.CD === 1 && (
             <li className={css.options}>
               <svg width="20" height="20" fill="none" stroke="currentColor">
-                <use xlinkHref="/public/icons.svg#icon-cd" />
+                <use xlinkHref="/icons.svg#icon-cd" />
               </svg>
               <p>CD</p>
             </li>
@@ -123,7 +123,7 @@ function Camper({ camper }) {
           {camper.details.bathroom === 1 && (
             <li className={css.options}>
               <svg width="20" height="20" fill="none" stroke="currentColor">
-                <use xlinkHref="/public/icons.svg#icon-Shower" />
+                <use xlinkHref="/icons.svg#icon-Shower" />
               </svg>
               <p>bathroom</p>
             </li>
@@ -131,7 +131,7 @@ function Camper({ camper }) {
           {camper.details.toilet === 1 && (
             <li className={css.options}>
               <svg width="20" height="20">
-                <use xlinkHref="/public/icons.svg#icon-toilet" />
+                <use xlinkHref="/icons.svg#icon-toilet" />
               </svg>
               <p>toilet</p>
             </li>

@@ -1,8 +1,38 @@
-# React + Vite
+# RentCamper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RentCamper is a web application for renting campers, developed with React.
 
-Currently, two official plugins are available:
+## Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view the site at the following link: https://rentcamper.netlify.app/
+
+## Installation
+
+To install the project locally, follow these steps:
+
+### Clone the repository
+
+```bash
+git clone https://github.com/ValentynHromadskyi/rentcamper.git
+```
+
+Navigate to the project directory
+cd rentcamper
+
+Install dependencies
+npm install
+
+Start the project
+npm start
+
+Usage
+After starting the project, you can open it in your browser at http://localhost:3000.
+
+Technologies
+The project uses the following technologies:
+
+React
+Node.js
+Netlify for hosting
+Author
+Valentyn Hromadskyi - GitHub
